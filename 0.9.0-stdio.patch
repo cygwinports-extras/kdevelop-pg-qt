@@ -1,0 +1,12 @@
+--- origsrc/kdevelop-pg-qt-0.9.0/kdev-pg/kdev-pg-follow.cpp	2010-04-14 15:18:57.000000000 -0500
++++ src/kdevelop-pg-qt-0.9.0/kdev-pg/kdev-pg-follow.cpp	2011-01-14 03:43:07.259957400 -0600
+@@ -24,6 +24,9 @@
+ 
+ #include <QtCore/QDebug>
+ 
++#undef stderr
++#undef stdout
++
+ //uncomment this to see debug output for follow dependency calculation
+ // #define followDepsEP_DEBUG
+ 
