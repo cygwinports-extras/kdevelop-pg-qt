@@ -1,0 +1,13 @@
+inherit kde4
+
+NAME="kdevelop-pg-qt"
+VERSION=1.0.0
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="KDevelop language plugin parser generator"
+DESCRIPTION="KDevelop-PG-Qt is a parser generator written in readable
+source-code and generating readable source-code. Its syntax was inspirated
+by AntLR. It implements the visitor-pattern and uses the Qt library."
+HOMEPAGE="http://www.kdevelop.org/"
+SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.bz2"
+PATCH_URI="0.9.0-stdio.patch"

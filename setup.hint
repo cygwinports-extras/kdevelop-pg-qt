@@ -1,7 +1,0 @@
-category: KDE
-requires: libgcc1 libQtCore4 libstdc++6
-sdesc: "KDevelop language plugin parser generator"
-ldesc: "KDevelop-PG-Qt is a parser generator written in readable 
-source-code and generating readable source-code. Its syntax was 
-inspirated by AntLR. It implements the visitor-pattern and uses the Qt 
-library."
